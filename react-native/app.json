@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "digicon",
+    "slug": "react-native-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "androidManifest": {
+        "application": {
+          "android:usesCleartextTraffic": true
+        }
+      },
+      "package": "com.amananilofficial.reactnativefrontend"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "API_URL": "http://46.202.164.133:8090/api",
+      "UPLOAD_URL": "http://46.202.164.133:8090/api/media",
+      "eas": {
+        "projectId": "ead7058a-0aa7-43f3-8f6b-c002545e3d35"
+      }
+    },
+    "owner": "amananilofficial"
+  }
+}
