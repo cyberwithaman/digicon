@@ -167,7 +167,7 @@ mobileapp/
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/amananilofficial/digicon.git
+   git clone https://github.com/cyberwithaman/digicon.git
    ```
 ### Backend Setup
 
